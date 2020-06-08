@@ -20,7 +20,8 @@ $ gulp
 
 - HTML5
 - CSS3
-- Bootstrap 4.5
+- SASS
+- Bootstrap 4+
 - JavaScript
 - Gulp
 
