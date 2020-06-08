@@ -1,29 +1,32 @@
 # SpaceX
 
-## 📥 Como visualizar o projeto
+## 📥 How to run this project
 
 ```bash
-# Abra o Terminal da sua maquina e clone o projeto, no local desajado execute:
+# Open your terminal and clone the project, just type:
 $ git clone https://github.com/rebecagrn/spaceX.git
 
-# Instalar dependências:
+# Install the dependencies
 $ npm install
+or
+$ yarn
 
-# DEVMODE: Para rodar o browser sync e compilar o sass
+# DEVMODE: To run browser sync ans sass compiler
 $ gulp
 
 ```
 
-## 💻 Tecnologias utilizadas 
+## 💻 Techs
 
 - HTML5
 - CSS3
 - Bootstrap 4.5
 - JavaScript
+- Gulp
 
 ![](/print-spacex.png)
 
 **By 📱💻❤ : [Rebeca Pacheco](https://rebecag.com/)**
 
-### Contato
+### Contact
 [💻 Linkedin](https://www.linkedin.com/in/rebecagrn/)
