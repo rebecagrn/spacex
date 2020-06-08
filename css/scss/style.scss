@@ -270,6 +270,28 @@ body {
     width: 15px;
     height: 15px;
   }
+
+  .owl-prev,
+  .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border: 0px solid black;
+  }
+  .owl-prev {
+    left: -20px;
+  }
+  .owl-next {
+    right: -20px;
+  }
+  .owl-prev i,
+  .owl-next i {
+    transform: scale(2, 5);
+    color: var(--sky);
+  }
 }
 
 @media (max-width: 767px) {
@@ -313,7 +335,6 @@ body {
 
 @media (max-width: 767px) {
   .about-us {
-
     margin: 60px 0;
     .about-text {
       margin-top: 30px;
