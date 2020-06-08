@@ -18,10 +18,7 @@ $(".owl-carousel").owlCarousel({
   margin: 10,
   responsiveClass: true,
   nav: true,
-  navText: [
-    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-    '<i class="fa fa-angle-right" aria-hidden="true"></i>',
-  ],
+  navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   responsive: {
     0: {
       items: 1,
