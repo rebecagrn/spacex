@@ -252,6 +252,39 @@ body {
 /*** Blog **/
 #blog {
   margin: 100px;
+
+  .card {
+    border: none;
+    margin: 5px;
+    
+    .card-title {
+      font-size: 1.25em;
+      color: var(--darkColor);
+    }
+
+    .card-text {
+      color: var(--darkSecondary);
+    }
+  }
+}
+
+.slider {
+  > .slide {
+    &:not(:first-child) {
+      display: none;
+    }
+  }
+}
+
+.wrapper--slider-cards {
+  .slider {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .slide {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /*** About **/

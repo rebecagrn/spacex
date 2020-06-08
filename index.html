@@ -13,6 +13,9 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Owl Carousel  -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
@@ -72,9 +75,52 @@
   <!-- Blog -->
   <section id="blog">
     <div class="container">
+
+      <div class="owl-carousel">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card1.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">International Space Station</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card2.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">My capsule</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card3.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">My moon</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card1.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">International Space Station</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card2.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">My capsule</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/card3.jpeg" alt="Card image cap">
+          <div class="card-body">My moon</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+          </div>
+        </div>
+      </div>
       
     </div>
-
   </section>
 
   <!-- About -->
@@ -110,8 +156,6 @@
     <p>© 2020 Created by Joyjet Digital Space Agency. <a href="http://rebecag.com/" target="_black">rebecag.com</a></p>
   </footer>
 
-  <script src="./js/main.js"></script>
-
   <!-- JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -122,6 +166,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+      $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+    </script>
 
 </body>
 
