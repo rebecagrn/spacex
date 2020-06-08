@@ -12,7 +12,15 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// blog carousel
+// Show and hide menu on mobile
+$(function(){ 
+  var navMain = $(".navbar-collapse");
+  navMain.on("click", "a", null, function () {
+      navMain.collapse('hide');
+  });
+});
+
+// Blog carousel
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
