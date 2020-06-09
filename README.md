@@ -11,7 +11,7 @@ $ npm install
 or
 $ yarn
 
-# DEVMODE: To run browser sync ans sass compiler
+# DEVMODE: To run browser sync and sass compiler
 $ gulp
 
 ```
@@ -19,8 +19,7 @@ $ gulp
 ## 💻 Techs
 
 - HTML5
-- CSS3
-- SASS
+- CSS3 (SASS)
 - Bootstrap 4+
 - JavaScript
 - Gulp
